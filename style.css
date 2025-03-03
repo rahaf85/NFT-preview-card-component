@@ -1,59 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 body{
-    background-color: rgb(25, 25, 25);
+    font-family: "Figtree", serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 130vh;
+    width: 100%;
+    background-color: hsl(47, 88%, 63%);
 }
-.links{
-    background-color: rgb(58, 57, 57);
-    padding: 10px;
-    margin: 10px auto;
-    border-radius:5px ;
-    width: 80%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: small;
-    color: rgb(245, 245, 245);
-}
-
 .card{
-    position: relative;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 100px;
-    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    border:2px solid black ;
+    border-radius: 30px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
     padding: 20px;
-    border-radius: 5px;
-
-    text-align: center; /* النصوص في المنتصف */
-    height: auto;
-    color: rgb(255, 255, 255);
-    background-color: rgb(35, 34, 34);
+    height: 60%;
+    box-shadow:  5px 5px  0px black;
+   
+}
+.img1{
+    border-radius: 30px;
+    
+}
+.text1{
+    background-color: hsl(47, 88%, 63%);
+    width:fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.date{
+    font-weight: 500;
+}
+h2{
+    margin:15px 0;
+    font-weight: 900;
+}
+.textlast{
+    padding-bottom: 20px;
+    color:  hsl(0, 2%, 22%);
+    font-weight: 500;
+}
+.info{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    gap: 15px;
     align-items: center;
-
 }
-h3{
-    color: rgb(236, 235, 235);
-    padding-top: 20px;
-}
-h5{
-padding-top: 10px;
-padding-bottom: 20px;
-color: rgb(184, 201, 61);
-font-size: 14px;
-}
-p{
-    font-size: 14px;
-    color: rgb(194, 191, 191);
-}
-img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-top: 10px;
+.img2{
+    width: 35px;
+   
 }
