@@ -1,60 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 body{
-    font-family: "Figtree", serif;
     display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: "Outfit", serif;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100%;
-    background-color: hsl(47, 88%, 63%);
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
 }
 .card{
-    background-color: hsl(0, 0%, 100%);
-    border:1px solid black ;
-    border-radius: 30px;
-    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    width: 250px;
+    height: 430px;
     display: flex;
-    flex-direction: column;
-    padding: 20px;
-    height: 480px;
-    box-shadow:  5px 5px  0px black;
-   
+    flex-direction: column; 
+    border-radius: 10px; 
 }
 .img1{
-    border-radius: 30px;
-    
-}
-.text1{
-    background-color: hsl(47, 88%, 63%);
-    width:fit-content;
-    padding: 5px 15px;
+    align-self: center;
+    width: 85%;
+    padding: 5px;
     border-radius: 10px;
-    margin: 10px 0;
 }
-.date{
-    font-weight: 500;
+.title{
+    color: hsl(0, 0%, 100%);
+    padding:10px 20px;
+    font-size: 15px;
+    font-weight: 600;
 }
-h2{
-    margin:15px 0;
-    font-weight: 900;
+p.our{
+    color:hsl(215, 51%, 70%);
+    padding-bottom:  10px;
+    padding-left: 20px;
+    font-size: 12px;
 }
-.textlast{
-    padding-bottom: 20px;
-    color:  hsl(0, 2%, 22%);
-    font-weight: 500;
-}
-.info{
+.container{
     display: flex;
-    width: 100%;
-    gap: 15px;
-    align-items: center;
-    font-size: 14px;
+    justify-content: space-between;
+    padding: 9px 0 ;
+    width: 85%;
+    align-self: center;
+
+}
+.left{
+
+    display: flex;
+    gap: 5px;
+    color: hsl(178, 100%, 50%);
+    font-size: 11px;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+.right{
+    display: flex;
+    gap: 5px;
+  font-size: 11px;
+  color: hsl(215, 51%, 70%);
+  flex-wrap: wrap;
+  align-items: center;  
+  
+
+}
+.shape1{
+    transform: scale(0.8);
+}
+.shape2{
+    transform: scale(0.8);
+}
+.line{
+    width: 85%;
+    height: 1px;
+    align-self: center;
+    background-color: hsl(215, 32%, 27%);
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .img2{
-    width: 35px;
-   
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.author{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+.creatin{
+    font-size: 13px;
+    color:hsl(215, 51%, 70%);
+}
+.name{
+    color: hsl(0, 0%, 100%);
 }
